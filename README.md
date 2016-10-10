@@ -1,5 +1,5 @@
 # eClimbing System project
-1.0
+Version 1.0
 
 Group member: Shaohu, Bader, Hussein, Appala
 
