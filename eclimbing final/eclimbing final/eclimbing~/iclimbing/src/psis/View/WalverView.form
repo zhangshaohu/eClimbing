@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane5" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+              <Component id="btn_clear" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="343" max="32767" attributes="0"/>
+              <Component id="btn_login" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="124" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane5" pref="418" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btn_clear" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btn_login" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btn_login">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reject"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_loginMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_loginActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_clear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Accept"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_clearMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_clearActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea5">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="80"/>
+            <Property name="text" type="java.lang.String" value="SDSU Climbing Gym Acknowledgement of Risk &#xa;&#xa;&#xa;PLEASE NOTE: This Waiver of Liability, Release, Acknowledgement of Risk, and Indemnification Agreement &#xa;(&#x201c;Waiver Agreement&#x201d;) is intended to be, and is, legally binding. &#xa;If any aspect of this Waiver Agreement requires clarification, have an SDSU Wellness Center Climbing Gym &#xa;attendant fully explain it, before click AGREE button at below. By pressing AGREE BUTTON below the &#xa;Wellness Center Climbing Gym &#x201c;Acknowledgement of Risk&#x201d; page, you are agreeing to all terms set forth in &#xa;this Waiver Agreement. You and/or the person on whose behalf you are signing, are waiving the right to &#xa;bring any type of action, whether in court or otherwise, to recover compensation or obtain any other remedy &#xa;for any personal injuries, damages to property, any accident or incident of any type, or death, arising out of &#xa;or related to your use of the Wellness Center Climbing Gym, its facilities, grounds, climbing walls, &#xa;exercise areas, equipment, whether the use is supervised or unsupervised. Rock climbing is a sport that has &#xa;inherent risks. While the SDSU Wellness Center Climbing Gym offers the sport of rock climbing in a controlled &#xa;environment, there is still an assumed risk of injury to persons using the SDSU Wellness Center Climbing Gym. &#xa;In agreeing to this Waiver Agreement, I hereby acknowledge, understand, and agree on my behalf, and upon &#xa;behalf of the person for whom I am signing, that the sport of rock climbing and the use of the SDSU Wellness &#xa;Center Climbing Gym, its facilities, equipment, climbing walls, classes and/or participating in activities &#xa;sponsored by the SDSU Wellness Center Climbing Gym has inherent risks. These risks include, but are not &#xa;limited to any injury of damage resulting from: &#xa;Negligence of employees, or the SDSU Wellness Center Climbing Gym.  Negligent misuse of the facility, &#xa;climbing walls, or equipment of the SDSU Wellness Center Climbing Gym; Falling off or impacting against &#xa;the climbing walls, impact surface, floors, or anything else; Rope abrasion, entanglement or other activities &#xa;occurring on the premises; Cuts or abrasions resulting from any cause whatsoever; Failure of the climbing &#xa;walls or equipment, whether inside or outside; Personal health problems, whether mental or physical; &#xa;Negligence of other climbers, visitors, or observers or persons who may be present in or around the climbing &#xa;area or facility; and/or Negligence or lack of adequate training or any person(s) who seek to assist with &#xa;medical or other help either before or after any injury or damage may occur. &#xa;By pressing AGREE BUTTON below the Wellness Center Climbing Gym &#x201c;Acknowledgement of Risk&#x201d; page, I, &#xa;for myself and for my heirs, next of kin assigns, and personal representatives, hereby agree to and do release, &#xa;indemnify and hold harmless the State of South Dakota, South Dakota Board of Regents, &#xa;South Dakota State University, and the SDSU Wellness Center Climbing Gym, and their officers, employees, &#xa;and agents, and/or volunteer assistants, from any and all injuries and damage which I, or the person upon &#xa;whose behalf I am pressing AGREE button, may sustain or incur arising out of or related to my use of the &#xa;SDSU Wellness Center Climbing Gym, its facilities, grounds, climbing walls, exercise areas, equipment, &#xa;participation in classes or events, and/or outdoor programs guided by or connected with the SDSU Wellness &#xa;Center Climbing Gym, whether the use is supervised or unsupervised. I, for myself and for my heirs, next of kin, &#xa;assigns, personal representatives, and persons upon whose behalf I am left clicking the AGREE button &#xa;at &#x201c;Acknowledge of risk page&#x201d; hereby agree to and release, indemnify and hold harmless the State of &#xa;South Dakota, South Dakota Board of Regents, South Dakota State University, and the SDSU Wellness Center &#xa;Climbing Gym, and their agents, employees, offices, and, volunteer assistants, from any and all causes of action, &#xa;claims for damages or demands whatsoever. &#xa;&#xa;THIS WAIVER AGREEMENT IS BINDING EVEN IF THE RELEASED PERSON(S) OR ENTITY(IES) HAVE CAUSED OR &#xa;CONTRIBUTED TO ANY DAMAGE OR INJURY THROUGH THEIR COLLECTIVE OR INDIVIDUAL NEGLIGENCE. &#xa; &#x9;&#xa; &#xa;I and/or person on whose behalf I am pressing AGREE BUTTON, voluntarily assume complete responsibility &#xa;for risks and any injuries or damage which may occur as a result of those risks even if the manner or type of &#xa;injury or damage occurs in a manner that is not foreseeable at the time this Waiver Agreement is accepted. &#xa;In consideration of my use of the gym, its equipment, employees, volunteer assistants, independent contractors, &#xa;I agree to and do release, indemnify and hold harmless, the SDSU Wellness Center Climbing Gym, and any and &#xa;all of their agents, servants and employees, from all liability, claims, demands and damages and further promise &#xa;not to commence any action or proceeding asserting same. &#xa;&#xa;&#xa;All climbers who are twelve (12) years of age or under must be directly supervised by an SDSU Wellness Center &#xa;Climbing Gym approved adult or be a participant in an SDSU Wellness Center Climbing Gym program. &#xa;The &#x201c;Acknowledgement of Risk&#x201d; page is being agreed by the youth&#x2019;s parent, legal guardian, or adult authorized to&#xa;press AGREE button by the youth&#x2019;s parent or legal guardian. By pressing AGREE BUTTON below the Wellness &#xa;Center Climbing Gym &#x201c;Acknowledgement of Risk&#x201d; page, the adult acknowledges that they understand the terms &#xa;of the Waiver Agreement and has the authority to sign for the youth climber. &#xa;&#xa;The person pressing AGREE BUTTON below the Wellness Center Climbing Gym &#x201c;Acknowledgement of Risk&#x201d; page &#xa;understands and acknowledges that this Waiver Agreement is binding on the person on whose behalf the &#xa;&#x201c;Acknowledgement of Risk&#x201d; page is agreed, for their heirs, next of kin, assigns, and personal representatives. &#xa;BY LEFT CLICKING AGREE BUTTON the SDSU Wellness Center Climbing Gym &#x201c;ACKNOWLEDGEMENT OF RISK&#x201d; &#xa;PAGE I ACKNOWLEDGE THAT I HAVE READ AND AGREE TO THE TERMS OF THIS WAIVER AGREEMENT. &#xa;THERE ARE NO ORAL REPRESENTATIONS, STATEMENTS, OR INDUCEMENTS WHICH HAVE BEEN MADE THAT ALTER, &#xa;CHANGE OR MODIFY ANYTHING SET FORTH IN THIS WAIVER AGREEMENT."/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
