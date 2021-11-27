@@ -152,9 +152,7 @@ CREATE TABLE `employee` (
 --
 
 INSERT INTO `employee` (`employee_id`, `first_name`, `last_name`, `dob`, `sex`, `username`, `password`, `email`, `phone`, `start_date`) VALUES
-(123457, 'shaohu', 'zhang', '1992-08-14', 'male', 'tigersdsu', 'shaohuzhang', 'shaohu.zhang@sdstate.edu', '6055920499', '2016-12-07 00:23:29');
 
--- --------------------------------------------------------
 
 --
 -- Table structure for table `inventory`
@@ -207,20 +205,7 @@ CREATE TABLE `patron` (
 --
 
 INSERT INTO `patron` (`patron_id`, `first_name`, `last_name`, `dob`, `sex`, `username`, `password`, `email`, `phone`, `payment`, `walvor`, `start_date`, `end_date`, `semester`, `access`, `notification`, `suspension_date`, `suspension_count`) VALUES
-(113428, 'qwer', 'asdf', '2016-11-11 00:00:00', 'Male', 'qwerasdf', '12345678', 'qwer@asdf.com', '1234567890', 'Done', 'Not Done', '2016-12-05 23:31:23', '2016-12-05 23:31:23', 'Summer', 'Yes', 1, NULL, 0),
-(234234, 'test', 'user', '2016-12-12 00:00:00', 'male', 'testuser2', '12345678', 'ainosoft@gmail.com', '12345678900', 'Done', 'Not Done', '2016-12-05 23:19:37', '2016-11-24 06:52:18', 'fall', 'yes', 1, NULL, 0),
-(234235, 'test', 'user', '2016-12-12 00:00:00', 'Male', 'testuser2', '12345678', 'sourcecode777@gmail.com', '12345678900', 'Not Done', 'Not Done', '2016-11-30 20:43:49', '2016-11-27 12:07:26', 'Fall', 'Yes', 1, NULL, 0),
-(234236, 'test', 'user', '2016-12-12 00:00:00', 'Male', 'testuser2', '12345678', 'mnouman2356@gmail.com', '12345678900', 'Not Done', 'Not Done', '2016-11-30 20:43:49', '2016-11-27 12:23:32', 'Fall', 'Yes', 1, NULL, 0),
-(234237, 'test', 'user', '2016-12-12 00:00:00', 'Male', 'testuser2', '12345678', 'test@gmail.com', '12345678900', 'Not Done', 'Not Done', '2016-11-30 20:43:49', '2016-11-27 12:27:17', 'Fall', 'Yes', 1, NULL, 0),
-(234238, 'test', 'user', '2016-12-12 00:00:00', 'Male', 'testuser2', '12345678', 'qwer@gmail.com', '12345678900', 'Not Done', 'Not Done', '2016-11-30 20:43:49', '2016-11-27 12:28:05', 'Fall', 'Yes', 1, NULL, 0),
-(234239, 'test', 'user', '2016-12-12 00:00:00', 'Male', 'testuser2', '12345678', 'qwer@gmail.com', '12345678900', 'Not Done', 'Not Done', '2016-11-30 20:43:49', '2016-11-27 12:28:24', 'Fall', 'Yes', 1, NULL, 0),
-(234240, 'test', 'user', '2016-12-12 00:00:00', 'Male', 'testuser2', '12345678', 'muajksd@gmail.com', '1234567890', 'Done', 'Done', '2016-12-05 01:54:05', '2016-11-27 12:46:29', 'Fall', 'Yes', 0, NULL, 0),
-(234241, 'testing', 'users', '2016-12-13 00:00:00', 'Male', 'testuser22', '12345678', 'test2@gmail.com', '12345678900', 'Not Done', 'Done', '2016-12-05 01:43:12', '2016-11-27 12:51:20', 'Fall', 'denied', 0, '2016-12-05', 1),
-(234242, 'hahaha', 'hahaha', '2016-10-10 00:00:00', 'Male', 'hahahaha', '12345678', 'hahaha@hahaha.com', '12345678900', 'Not Done', 'Done', '2016-12-04 22:30:22', '2016-12-04 17:01:56', 'Summer', 'denied', 1, '2016-12-05', 2),
-(234243, 'abcd', 'efgh', '2016-11-11 00:00:00', 'Male', 'abcedffd', '12345678', 'abcdf@gmail.com', '1234567890', 'Done', 'Done', '2016-12-06 00:35:19', '2016-12-05 23:20:30', 'Fall', 'Yes', 1, NULL, 0),
-(378073, 'qwer', 'asdf', '2016-11-11 00:00:00', 'Male', 'qwerasdf', '12345678', 'qwer@asdfm.com', '1234567890', 'Done', 'Not Done', '2016-12-05 23:31:45', '2016-12-05 23:31:45', 'Summer', 'Yes', 1, NULL, 0),
-(408865, 'Hussain', 'Otudi', '1989-04-18 00:00:00', 'Male', 'hotudi2016', '12345678', 'Otudi.2015@gmail.com', '6055920069', 'Not Done', 'Done', '2016-12-07 00:51:10', '2016-12-07 00:48:42', 'Fall', 'Yes', 1, NULL, 0),
-(760782, 'appala', 'chekuri', '1992-08-14 00:00:00', 'Male', 'anchekuri', 'appala2015', 'narasimharaju386@gmail.com', '3213128431', 'Done', 'Done', '2016-12-07 00:31:58', '2016-12-07 00:14:56', 'Fall', 'Yes', 1, NULL, 0);
+
 
 -- --------------------------------------------------------
 
